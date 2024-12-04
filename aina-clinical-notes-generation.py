@@ -22,7 +22,7 @@ class AINAMedicalSummaryGenerator:
         # Initialize text generation pipeline with AINA's Catalan model
         self.text_processor = pipeline(
             "text-generation",
-            model="projecte-aina/roberta-base-ca-v2",
+            model="projecte-aina/FLOR-1.3B",
             truncation=True
         )
         
